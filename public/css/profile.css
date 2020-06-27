@@ -1,0 +1,229 @@
+body{
+    background:#f8f9fb;
+}
+.card {
+    background-color: #fff;
+    border: 0 solid #eee;
+    border-radius: 0;
+}
+.card {
+    padding: 0;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+}
+
+.card-profile .card-header {
+    height: 9rem;
+    background-size: cover;
+    background-position: center center
+}
+
+.card-profile-img {
+    max-width: 8rem;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+    border: 3px solid #fff;
+    border-radius: 100%
+}
+
+.avatar {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    /*background: #ced4da no-repeat center/cover;*/
+    position: relative;
+    text-align: center;
+    color: #868e96;
+    font-weight: 600;
+    vertical-align: bottom
+}
+
+.avatar.avatar-md {
+    width: 3rem;
+    height: 3rem
+}
+
+.avatar.avatar-lg {
+    width: 4rem;
+    height: 4rem
+}
+
+.avatar.avatar-xl {
+    width: 5rem;
+    height: 5rem
+}
+
+.avatar.avatar-xxl {
+    width: 7rem;
+    height: 7rem;
+    min-width: 7rem
+}
+
+.card-header:first-child {
+    border-radius: 0 0 0 0;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card-header {
+    border-radius: 0;
+    padding: 1rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+.card-header {
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-position: center center;
+    -wekit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-footer {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 5px;
+    background-position: center center;
+    -wekit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-mobile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-position: center center;
+    -wekit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-post {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-position: center center;
+    -wekit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-post-mobile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background-position: center center;
+    -wekit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.information {
+    font-size: 25px;
+}
+.information2 {
+    font-size: 16px;
+}
+.brand {
+    font-size: 30px;
+}
+.card-img {
+    height: 300px;
+    background-position: center center;
+    -wekit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner {
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+}
+.img_avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 1px;
+    background-position: center center;
+    -wekit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-icon {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.btn > .icon {
+    position: relative;
+    left: -.75rem;
+    display: inline-block;
+    padding: .375rem .75rem;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.footer-button {
+    height: 32px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-device-width: 720px) {
+    .content {
+        padding: 0;
+    }
+    .left-column{
+        padding: 0;
+    }
+    .right-column{
+        padding: 0;
+    }
+    .allalbums {
+        padding: 0;
+    }
+
+    .margTop30 {
+        margin-top: 30px;
+    }
+
+    .small {
+        margin-top: 5px;
+    }
+    .margins {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .marginbottom {
+        margin-bottom: 0;
+    }
+    .margin {
+        margin: 0;
+    }
+}
+
+.button-delete-post {
+    border: none;
+    background-color: white;
+}
+
+.image-upload>input {
+    display: none;
+}
